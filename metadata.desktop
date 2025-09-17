@@ -1,0 +1,17 @@
+[SddmGreeterTheme]
+Name=Arona Login
+Description=Theme for SDDM
+Author=dungdinhmanh
+Copyright=Copyright (C) 2025 dungdinhmanh
+License=GPL-3.0-or-later
+Type=sddm-theme
+Version=2.0.0
+Website=
+Screenshot=Previews/preview.png
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Email=dungdinhmanh0209@gmail.com
+Theme-Id=arona-sddm
+Theme-API=2.11
+QtVersion=6
