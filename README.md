@@ -37,17 +37,17 @@ cd arona-sddm-login
 
 This theme is based on sddm, qt5-quickcontrols2, qt5-graphicaleffects, qt5-svg. If you encounter some problems, try to reinstall the dependencies
 
-For Arch based:
+For Arch based: #Update soon
 ```bash
 sudo pacman -S sddm qt5-quickcontrols2 qt5-graphicaleffects qt5-svg
 ```
 
 For Debian based:
 ```bash
-sudo apt install --no-install-recommends sddm qml‑module‑qtquick‑layouts qml6-module-qt5compat-graphicaleffects qml‑module‑qtquick‑controls2 libqt5svg5
+sudo apt install --no-install-recommends sddm qml‑module‑qtquick‑layouts qml6-module-qt5compat-graphicaleffects qml‑module‑qtquick‑controls2 libqt5svg5 qml6-module-qtquick-controls qml6-module-qtquick-effects
 ```
 
-For Red Hat based：
+For Fedora/OpenSUSE based: #Update soon
 ```bash
 sudo dnf install sddm qt5‑qtquickcontrols2 qt5‑qtgraphicaleffects qt5‑qtsvg
 ```
