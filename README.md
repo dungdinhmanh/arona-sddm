@@ -15,7 +15,13 @@ sudo tar -xzvf ~/arona-sddm-login.tar -C /usr/share/sddm/themes
 ```
 
 After that you will have to point SDDM to the new theme by editing its config file, preferrably at `/etc/sddm.conf` and `/etc/sddm.conf.d/kde_settings.conf`. You can take the default config file of SDDM as a reference which might be found at: /usr/lib/sddm/sddm.conf.d/sddm.conf.
-
+```bash
+sudo mkdir -p /etc/sddm.conf.d #Create if not found sddm.conf.d
+echo "[Theme]
+    Current=arona-sddm" | sudo tee /etc/sddm.conf /etc/sddm.conf.d/kde_settings.conf
+echo "[General]
+    InputMethod=qtvirtualkeyboard" | sudo tee /etc/sddm.conf.d/virtualkbd.conf
+```
 In the `[Theme]` section simply modify the themes name to this line: `Current=arona-sddm`.
 
 ## Automatic Installation (Recommended)
