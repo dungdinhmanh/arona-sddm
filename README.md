@@ -2,7 +2,7 @@
 
 Adapted from [Machillka](https://github.com/Machillka/arona-sddm-login/) and [Matt.Jolly](http://gitlab.com/Matt.Jolly/sddm-eucalyptus-drop) to make this theme.
 
-![Preview](/Previews/preview.png "Preview")
+![Preview](/Previews/previews.png "Preview")
 
 # Usage
 
