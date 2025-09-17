@@ -1,3 +1,4 @@
+#!/bin/bash
 set -euo pipefail
 
 # ---------- 0. Sanity checks ----------
@@ -30,7 +31,7 @@ detect_default_res() {
 }
 DEFAULT_RES="$(detect_default_res)"
 
-read -rp "Input Your own resolution (e.g. 1920x1080), defalut is ${DEFAULT_RES} " RES
+read -rp "Input Your own resolution (e.g. 1920x1080), default is ${DEFAULT_RES} " RES
 
 RES="${RES:-$DEFAULT_RES}"
 
